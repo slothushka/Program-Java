@@ -1,0 +1,19 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    System.out.println("Enter the two numbers x and y");
+	Scanner in=new Scanner(System.in);
+	float x=in.nextFloat();
+	float y=in.nextFloat();
+	
+	
+	
+	float hcf=x%y;
+	float HCF=(y/hcf);
+	
+	System.out.println("The HCF of the number is :"+ HCF);
+	
+	
+	}
+}
