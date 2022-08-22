@@ -1,0 +1,19 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner in=new Scanner(System.in);
+		System.out.println("Enter the two numbers x and y: ");
+		int x=in.nextInt();
+		int y=in.nextInt();
+		
+		int LCM=(x>y ? x:y);
+		while(true){
+		    if(LCM%x==0 && LCM%y==0){
+		        System.out.println("The LCM of "+x+" "+y+" is "+LCM);
+		        break;
+		    }
+		    ++LCM;
+		    }
+		}
+	}
