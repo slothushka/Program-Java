@@ -1,0 +1,15 @@
+import java.util.*;
+class Main{
+    public static void main(String []args){
+        Scanner in= new Scanner(System.in);
+        System.out.println("Please enter the year:");
+        
+        int year=in.nextInt();
+        int leapyear=(year%4);
+        if(leapyear!=0)
+        System.out.println("False");
+        else
+        System.out.println("True");
+        
+    }
+}
