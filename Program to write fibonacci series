@@ -17,3 +17,14 @@ public class Main {
         System.out.println(b);
     }
 }
+
+
+
+
+Replace while loop with for loop as an alternative method :
+
+ for (count=2; count<=n; count++){
+            int temp =b;
+            b=b+a;
+            a=temp;
+        }
