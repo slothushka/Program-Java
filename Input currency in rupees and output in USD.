@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        float inr = sc.nextFloat();
+        double usd = inr * 0.013;
+
+        System.out.println("The "+ inr + " is equal to "+ usd);
+
+    }
+}
